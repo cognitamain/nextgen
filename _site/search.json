@@ -1,11 +1,219 @@
 [
   
     {
-      "title"    : "How To Set Page Visibility",
+      "title"    : "Cookies Policy Template (English &amp; Vietnamese)",
       "category" : "",
       "tags"     : "",
-      "url"      : "/nextgen/HowToSetPageVisibilityForParentAndPublicToPrevent404/",
-      "date"     : "2022-12-09 00:00:00 +0530"
+      "url"      : "/nextgen/Cookiespolicy-VN-ENG/",
+      "date"     : "2025-02-28 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "SG Cookies Policy Template",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/Cookiespolicy-SG/",
+      "date"     : "2025-02-27 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Add a Video Testimonial slider",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/AddVideotestimonialSlider/",
+      "date"     : "2025-01-30 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Add Global Blog Articles",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/AddGlobalBlog/",
+      "date"     : "2025-01-30 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Academic Calendar Events.",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/AcademicCalendar/",
+      "date"     : "2024-06-07 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Add About the Author box at the bottom of our blog pages",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/AddBlogAuthorBox/",
+      "date"     : "2024-06-06 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Event Registration In Dynamics CRM Marketing.",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/CreateEventRegistrationInDynamicsCrm/",
+      "date"     : "2024-04-11 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "How To Change Category Tag Colour",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/HowToChangeCategoryTagColour/",
+      "date"     : "2024-03-12 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "How To Change Blog Grid Template Header Banner",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/HowToChangeBlogGridHeaderBanner/",
+      "date"     : "2024-01-17 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "How To Change Archive Pages Header Banner",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/HowToChangeArchivePagesHeaderBanner/",
+      "date"     : "2024-01-17 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Notification Bar",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/notificationBar/",
+      "date"     : "2023-12-12 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Cognita Gravity Stats",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/CognitaGravityStats/",
+      "date"     : "2023-12-11 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Add Data Layer",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/AddDataLyer/",
+      "date"     : "2023-12-11 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "How to change blog page view and single blog more article view",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/HowToChangeBlogsPageAndSingleBlogRelatedPostView/",
+      "date"     : "2023-10-09 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "How to add sticky sidebar banner or form in blog page",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/HowToAddStickySidebarBannerFormBlogPage/",
+      "date"     : "2023-08-28 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Add Multiple Downloadable Files",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/AddMultipleDownloadables/",
+      "date"     : "2023-08-07 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Add A Content Slider",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/AddContentSlider/",
+      "date"     : "2023-08-07 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "How To Use Table Of Content",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/HowToUseTableOfContent/",
+      "date"     : "2023-08-03 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "How to change Widget Posts Title Tags",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/ChangeWidgetPostsTitleTags/",
+      "date"     : "2023-08-03 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Advertisement Pop Up Component",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/AddAdvertisePopUp/",
+      "date"     : "2023-08-02 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "CTA Menu Bar Settings",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/CTABarSettings/",
+      "date"     : "2023-07-25 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Multi-event Registration In Dynamics CRM Marketing.",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/CreateMultiEventRegistrationInDynamicsCrm/",
+      "date"     : "2023-07-24 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "FAQ With Sidebar",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/FAQWithSidebar/",
+      "date"     : "2023-06-19 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Hotline Out of Office Hours",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/HotlineOutofOfficeHours/",
+      "date"     : "2023-05-17 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Manage Position In Our Teachers Slider",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/ManagePositionInOurTeachersSlider/",
+      "date"     : "2023-02-23 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Link Pre-Created Event In Dynamics CRM Marketing.",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/LinkPreCreatedEventInDynamicsCrm/",
+      "date"     : "2023-02-10 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "Update Academic Year",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/UpdateAcademicYear/",
+      "date"     : "2023-02-01 00:00:00 +0530"
     } ,
   
     {
@@ -13,6 +221,14 @@
       "category" : "",
       "tags"     : "",
       "url"      : "/nextgen/HowToAddCountryOfResidenceField/",
+      "date"     : "2023-01-21 00:00:00 +0530"
+    } ,
+  
+    {
+      "title"    : "How To Set Page Visibility",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/nextgen/HowToSetPageVisibilityForParentAndPublicToPrevent404/",
       "date"     : "2022-12-09 00:00:00 +0530"
     } ,
   

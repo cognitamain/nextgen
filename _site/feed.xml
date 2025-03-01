@@ -1,778 +1,596 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.1">Jekyll</generator><link href="http://localhost:4000/nextgen/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/nextgen/" rel="alternate" type="text/html" /><updated>2023-01-04T19:08:46+05:30</updated><id>http://localhost:4000/nextgen/feed.xml</id><title type="html">Next Gen</title><subtitle>Knowledge base for the use of the Next Gen components on Wordpress.</subtitle><author><name>James Shimell</name></author><entry><title type="html">How To Add Country Of Residence</title><link href="http://localhost:4000/nextgen/HowToAddCountryOfResidenceField/" rel="alternate" type="text/html" title="How To Add Country Of Residence" /><published>2022-12-09T00:00:00+05:30</published><updated>2022-12-09T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/HowToAddCountryOfResidenceField</id><content type="html" xml:base="http://localhost:4000/nextgen/HowToAddCountryOfResidenceField/"><![CDATA[<p><em>Note : This option will be available after 21 JAN 2023 !</em></p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/country_of_residence_search_field.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/nextgen/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/nextgen/" rel="alternate" type="text/html" /><updated>2025-03-01T15:25:23+05:30</updated><id>http://localhost:4000/nextgen/feed.xml</id><title type="html">Next Gen</title><subtitle>Knowledge base for the use of the Next Gen components on Wordpress.</subtitle><author><name>James Shimell</name></author><entry><title type="html">Cookies Policy Template (English &amp;amp; Vietnamese)</title><link href="http://localhost:4000/nextgen/Cookiespolicy-VN-ENG/" rel="alternate" type="text/html" title="Cookies Policy Template (English &amp;amp; Vietnamese)" /><published>2025-02-28T00:00:00+05:30</published><updated>2025-02-28T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/Cookiespolicy%20-VN-ENG</id><content type="html" xml:base="http://localhost:4000/nextgen/Cookiespolicy-VN-ENG/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/cookie_policy-vn-eng.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Cookie Policy</span></figcaption>
 </figure>
 
 <h2 id="description">Description</h2>
-
-<p>To collect country of residence data on the CRM side. Searchable fields should be added to the form and need to be mapped.</p>
-
-<h2 id="using-the-dropdown-field-in-form">Using the dropdown field in form</h2>
-
-<p>We need to choose the form first after login to the wordpress portal side. Then edit the form.</p>
+<p>We use cookies to enhance your browsing experience and improve our website. Cookies are small files stored on your device that help us collect technical data, such as your IP address, browser type, and site interactions. By using our site, you agree to our use of cookies.</p>
 
 <figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/choose_the_form_to_add_ country_of_residence.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
+    <img src="http://localhost:4000/nextgen/assets/posts/cookie_policytemplate_vn_eng.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">New Video Slider Post</span></figcaption>
 </figure>
 
-<p>After edit the form see all the existing fields first &amp; then choose the dropdownfield from the sidebar menu like this :</p>
+<h2 id="assign-template-to-the-admin-page">Assign template to the admin page</h2>
+<p>Create a new page and assign the VN ENG Privacy Policies Page template to it.</p>
 
-<p>By using drag and drop we can add the field and choose the exact position / order where we have to put in the form .</p>
+<h2 id="privacy-global-option">Privacy Global Option</h2>
+
+<ol>
+  <li>Added a global option for the school name.</li>
+  <li>Dynamically added the school prefix.</li>
+  <li>Integrated the school email using the global option.</li>
+  <li>Included a field for the School Data Protection Coordinator.
+I have created a global theme option and added fields for the school name, school prefix, school email, and School Data Protection Coordinator.</li>
+</ol>
 
 <figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/drop_down_field_from_sidebar.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/just_clicked_dropdown.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>There are few case here if we just click on the field it will reach to the bottom of the page like this:</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/drag_drop_down_field.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>And second is to drag and drop like this :</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/change_add_title_options.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>Then add the field related details like :title, check required if needed.</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/add_options_onclick.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>Then to add a list of countries which are in the CRM side as well. Firstly we need to clear the predefined ones like :</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/clear_pre_defined.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>Then to add the countries list :</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/insert_choices.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/see_close_the_edit_choices.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>Next is to set the search box :</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/expand_apperance.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/check_and_save.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>After the changes we can see this in the front end side.</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/country_of_residence_search_field.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>To map this country field we can ask the website admin to map for <b>Dynamics</b>.</p>
-
-<p>Country list we are using :</p>
-
-<table><tbody>
-    <tr><td>Afghanistan</td></tr>
-    <tr><td>Albania</td></tr>
-    <tr><td>Algeria</td></tr>
-    <tr><td>American Samoa</td></tr>
-    <tr><td>Andorra</td></tr>
-    <tr><td>Angola</td></tr>
-    <tr><td>Anguilla</td></tr>
-    <tr><td>Antigua &amp; Barbuda</td></tr>
-    <tr><td>Argentina</td></tr>
-    <tr><td>Armenia</td></tr>
-    <tr><td>Aruba</td></tr>
-    <tr><td>Australia</td></tr>
-    <tr><td>Austria</td></tr>
-    <tr><td>Azerbaijan</td></tr>
-    <tr><td>Bahamas, The</td></tr>
-    <tr><td>Bahrain</td></tr>
-    <tr><td>Bangladesh</td></tr>
-    <tr><td>Barbados</td></tr>
-    <tr><td>Belarus</td></tr>
-    <tr><td>Belgium</td></tr>
-    <tr><td>Belize</td></tr>
-    <tr><td>Benin</td></tr>
-    <tr><td>Bermuda</td></tr>
-    <tr><td>Bhutan</td></tr>
-    <tr><td>Bolivia</td></tr>
-    <tr><td>Bosnia &amp; Herzegovina</td></tr>
-    <tr><td>Botswana</td></tr>
-    <tr><td>Brazil</td></tr>
-    <tr><td>British Virgin Is.</td></tr>
-    <tr><td>Brunei</td></tr>
-    <tr><td>Bulgaria</td></tr>
-    <tr><td>Burkina Faso</td></tr>
-    <tr><td>Burundi</td></tr>
-    <tr><td>Cambodia</td></tr>
-    <tr><td>Cameroon</td></tr>
-    <tr><td>Canada</td></tr>
-    <tr><td>Cape Verde</td></tr>
-    <tr><td>Cayman Islands</td></tr>
-    <tr><td>Central African Rep.</td></tr>
-    <tr><td>Chad</td></tr>
-    <tr><td>Chile</td></tr>
-    <tr><td>China</td></tr>
-    <tr><td>Colombia</td></tr>
-    <tr><td>Comoros</td></tr>
-    <tr><td>Congo, Dem. Rep.</td></tr>
-    <tr><td>Congo, Repub. of the</td></tr>
-    <tr><td>Cook Islands</td></tr>
-    <tr><td>Costa Rica</td></tr>
-    <tr><td>Cote d'Ivoire</td></tr>
-    <tr><td>Croatia</td></tr>
-    <tr><td>Cuba</td></tr>
-    <tr><td>Cyprus</td></tr>
-    <tr><td>Czech Republic</td></tr>
-    <tr><td>Denmark</td></tr>
-    <tr><td>Djibouti</td></tr>
-    <tr><td>Dominica</td></tr>
-    <tr><td>Dominican Republic</td></tr>
-    <tr><td>East Timor</td></tr>
-    <tr><td>Ecuador</td></tr>
-    <tr><td>Egypt</td></tr>
-    <tr><td>El Salvador</td></tr>
-    <tr><td>Equatorial Guinea</td></tr>
-    <tr><td>Eritrea</td></tr>
-    <tr><td>Estonia</td></tr>
-    <tr><td>Ethiopia</td></tr>
-    <tr><td>Faroe Islands</td></tr>
-    <tr><td>Fiji</td></tr>
-    <tr><td>Finland</td></tr>
-    <tr><td>France</td></tr>
-    <tr><td>French Guiana</td></tr>
-    <tr><td>French Polynesia</td></tr>
-    <tr><td>Gabon</td></tr>
-    <tr><td>Gambia, The</td></tr>
-    <tr><td>Gaza Strip</td></tr>
-    <tr><td>Georgia</td></tr>
-    <tr><td>Germany</td></tr>
-    <tr><td>Ghana</td></tr>
-    <tr><td>Gibraltar</td></tr>
-    <tr><td>Greece</td></tr>
-    <tr><td>Greenland</td></tr>
-    <tr><td>Grenada</td></tr>
-    <tr><td>Guadeloupe</td></tr>
-    <tr><td>Guam</td></tr>
-    <tr><td>Guatemala</td></tr>
-    <tr><td>Guernsey</td></tr>
-    <tr><td>Guinea</td></tr>
-    <tr><td>Guinea-Bissau</td></tr>
-    <tr><td>Guyana</td></tr>
-    <tr><td>Haiti</td></tr>
-    <tr><td>Honduras</td></tr>
-    <tr><td>Hong Kong</td></tr>
-    <tr><td>Hungary</td></tr>
-    <tr><td>Iceland</td></tr>
-    <tr><td>India</td></tr>
-    <tr><td>Indonesia</td></tr>
-    <tr><td>Iran</td></tr>
-    <tr><td>Iraq</td></tr>
-    <tr><td>Ireland</td></tr>
-    <tr><td>Isle of Man</td></tr>
-    <tr><td>Israel</td></tr>
-    <tr><td>Italy</td></tr>
-    <tr><td>Jamaica</td></tr>
-    <tr><td>Japan</td></tr>
-    <tr><td>Jersey</td></tr>
-    <tr><td>Jordan</td></tr>
-    <tr><td>Kazakhstan</td></tr>
-    <tr><td>Kenya</td></tr>
-    <tr><td>Kiribati</td></tr>
-    <tr><td>Korea, North</td></tr>
-    <tr><td>Korea, South</td></tr>
-    <tr><td>Kuwait</td></tr>
-    <tr><td>Kyrgyzstan</td></tr>
-    <tr><td>Laos</td></tr>
-    <tr><td>Latvia</td></tr>
-    <tr><td>Lebanon</td></tr>
-    <tr><td>Lesotho</td></tr>
-    <tr><td>Liberia</td></tr>
-    <tr><td>Libya</td></tr>
-    <tr><td>Liechtenstein</td></tr>
-    <tr><td>Lithuania</td></tr>
-    <tr><td>Luxembourg</td></tr>
-    <tr><td>Macau</td></tr>
-    <tr><td>Macedonia</td></tr>
-    <tr><td>Madagascar</td></tr>
-    <tr><td>Malawi</td></tr>
-    <tr><td>Malaysia</td></tr>
-    <tr><td>Maldives</td></tr>
-    <tr><td>Mali</td></tr>
-    <tr><td>Malta</td></tr>
-    <tr><td>Marshall Islands</td></tr>
-    <tr><td>Martinique</td></tr>
-    <tr><td>Mauritania</td></tr>
-    <tr><td>Mauritius</td></tr>
-    <tr><td>Myanmar, Republic of the Union of</td></tr>
-    <tr><td>Mayotte</td></tr>
-    <tr><td>Mexico</td></tr>
-    <tr><td>Micronesia, Fed. St.</td></tr>
-    <tr><td>Moldova</td></tr>
-    <tr><td>Monaco</td></tr>
-    <tr><td>Mongolia</td></tr>
-    <tr><td>Montenegro</td></tr>
-    <tr><td>Montserrat</td></tr>
-    <tr><td>Morocco</td></tr>
-    <tr><td>Mozambique</td></tr>
-    <tr><td>N. Mariana Islands</td></tr>
-    <tr><td>Namibia</td></tr>
-    <tr><td>Nauru</td></tr>
-    <tr><td>Nepal</td></tr>
-    <tr><td>Netherlands</td></tr>
-    <tr><td>Netherlands Antilles</td></tr>
-    <tr><td>New Caledonia</td></tr>
-    <tr><td>New Zealand</td></tr>
-    <tr><td>Nicaragua</td></tr>
-    <tr><td>Niger</td></tr>
-    <tr><td>Nigeria</td></tr>
-    <tr><td>Norway</td></tr>
-    <tr><td>Oman</td></tr>
-    <tr><td>Pakistan</td></tr>
-    <tr><td>Palau</td></tr>
-    <tr><td>Panama</td></tr>
-    <tr><td>Papua New Guinea</td></tr>
-    <tr><td>Paraguay</td></tr>
-    <tr><td>Peru</td></tr>
-    <tr><td>Philippines</td></tr>
-    <tr><td>Poland</td></tr>
-    <tr><td>Portugal</td></tr>
-    <tr><td>Puerto Rico</td></tr>
-    <tr><td>Qatar</td></tr>
-    <tr><td>Reunion</td></tr>
-    <tr><td>Romania</td></tr>
-    <tr><td>Russia</td></tr>
-    <tr><td>Rwanda</td></tr>
-    <tr><td>Saint Helena</td></tr>
-    <tr><td>Saint Kitts &amp; Nevis</td></tr>
-    <tr><td>Saint Lucia</td></tr>
-    <tr><td>Saint Vincent and the Grenadines</td></tr>
-    <tr><td>Samoa</td></tr>
-    <tr><td>San Marino</td></tr>
-    <tr><td>Sao Tome &amp; Principe</td></tr>
-    <tr><td>Saudi Arabia</td></tr>
-    <tr><td>Senegal</td></tr>
-    <tr><td>Serbia</td></tr>
-    <tr><td>Seychelles</td></tr>
-    <tr><td>Sierra Leone</td></tr>
-    <tr><td>Singapore</td></tr>
-    <tr><td>Slovakia</td></tr>
-    <tr><td>Slovenia</td></tr>
-    <tr><td>Solomon Islands</td></tr>
-    <tr><td>Somalia</td></tr>
-    <tr><td>South Africa</td></tr>
-    <tr><td>Spain</td></tr>
-    <tr><td>Sri Lanka</td></tr>
-    <tr><td>St Pierre &amp; Miquelon</td></tr>
-    <tr><td>Sudan</td></tr>
-    <tr><td>Suriname</td></tr>
-    <tr><td>Swaziland</td></tr>
-    <tr><td>Sweden</td></tr>
-    <tr><td>Switzerland</td></tr>
-    <tr><td>Syria</td></tr>
-    <tr><td>Taiwan</td></tr>
-    <tr><td>Tajikistan</td></tr>
-    <tr><td>Tanzania</td></tr>
-    <tr><td>Thailand</td></tr>
-    <tr><td>Togo</td></tr>
-    <tr><td>Tonga</td></tr>
-    <tr><td>Trinidad &amp; Tobago</td></tr>
-    <tr><td>Tunisia</td></tr>
-    <tr><td>Turkey</td></tr>
-    <tr><td>Turkmenistan</td></tr>
-    <tr><td>Turks &amp; Caicos Is</td></tr>
-    <tr><td>Tuvalu</td></tr>
-    <tr><td>Uganda</td></tr>
-    <tr><td>Ukraine</td></tr>
-    <tr><td>United Arab Emirates</td></tr>
-    <tr><td>United Kingdom</td></tr>
-    <tr><td>United States</td></tr>
-    <tr><td>Uruguay</td></tr>
-    <tr><td>Uzbekistan</td></tr>
-    <tr><td>Vanuatu</td></tr>
-    <tr><td>Venezuela</td></tr>
-    <tr><td>Vietnam</td></tr>
-    <tr><td>Virgin Islands</td></tr>
-    <tr><td>Wallis and Futuna</td></tr>
-    <tr><td>West Bank</td></tr>
-    <tr><td>Western Sahara</td></tr>
-    <tr><td>Yemen</td></tr>
-    <tr><td>Zambia</td></tr>
-    <tr><td>Zimbabwe</td></tr>
-</tbody></table>
-
-<h2 id="pro-tip">Pro Tip</h2>
-<blockquote>
-  <p>Sometimes we are able to choose and drag the field from the right side menu, But the field accidentally loses during this process and in that case we will not be able to see the field &amp; we again try to add a new.
-So, Please avoid that &amp; try to find the missing field first , that may be there in the form in the bottom or top. We can just use that by drag and put it in the correct position.</p>
-</blockquote>]]></content><author><name>Himani Guleria</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Note : This option will be available after 21 JAN 2023 !]]></summary></entry><entry><title type="html">How To Set Page Visibility</title><link href="http://localhost:4000/nextgen/HowToSetPageVisibilityForParentAndPublicToPrevent404/" rel="alternate" type="text/html" title="How To Set Page Visibility" /><published>2022-12-09T00:00:00+05:30</published><updated>2022-12-09T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/HowToSetPageVisibilityForParentAndPublicToPrevent404</id><content type="html" xml:base="http://localhost:4000/nextgen/HowToSetPageVisibilityForParentAndPublicToPrevent404/"><![CDATA[<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/subpage_afterupdate.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<h2 id="description">Description</h2>
-
-<p>A subpage should not have its parent page’s visibility set to private to prevent a 404-page error. The parent page should always be set to public if we want to show its subpages for the correct permalink structure.</p>
-
-<h2 id="using-the-page-visibility">Using the Page Visibility</h2>
-
-<p>In the below screenshot if we see the parent page and subpage and their page properties. We can see in the subpages that the parent page is not set (no parent). The parent page’s visibility is set to private.</p>
-
-<p>Parent page :</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/parentpage_visibility_private.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>Subpage:</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/subpage_beforeupdate.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>Before any change in subpage content if we see <em>permalink</em> and page properties section. We can see that there is no parent selected and the parent page slug is added to the link.</p>
-
-<p>If a page was previously set to private, and this time if we have made some changes (like content changes).</p>
-
-<p>After a few content updates without any other settings the subpage will look like this in the admin side:</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/subpage_URLchanges_afterupdate.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>And we update and save the subpage without parent, it will cause 404 error on frontend.</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/subpage_afterupdate.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>So, to prevent this we need to make <em>parent page</em> visibility public and then in <em>subpage</em> select parent page from dropdown of page attributes (parent) and then update/save that page with latest changes.</p>
-
-<p>In parent page we have to do setting like:</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/parentpage_visibility_changedTopublic.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>After these changes if we see the page, it will be like below screen</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/choose_parentPage.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
-</figure>
-
-<p>After these changes if we see the page, it will be like below screen</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/working_subpage_afterupdate.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Timeline Settings</span></figcaption>
+    <img src="http://localhost:4000/nextgen/assets/posts/cookie-policy-en-vi-global-option.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Policy Global Settings</span></figcaption>
 </figure>
 
 <h2 id="pro-tip">Pro Tip</h2>
 <blockquote>
-  <p>Make sure the parent page’s visibility should always be public for its inner pages to work. And the parent page in the subpages should be selected appropriately.</p>
-</blockquote>]]></content><author><name>Himani Guleria</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Timeline Settings]]></summary></entry><entry><title type="html">Managing Draft &amp;amp; Unpublished Pages</title><link href="http://localhost:4000/nextgen/ManagingDraft&UnpublishedPages/" rel="alternate" type="text/html" title="Managing Draft &amp;amp; Unpublished Pages" /><published>2022-09-13T00:00:00+05:30</published><updated>2022-09-13T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/ManagingDraft&amp;UnpublishedPages</id><content type="html" xml:base="http://localhost:4000/nextgen/ManagingDraft&amp;UnpublishedPages/"><![CDATA[<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/publish_draft.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Publish Settings</span></figcaption>
+  <p>Regularly review and update your cookie policy to stay compliant with privacy regulations like GDPR and CCPA. Additionally, consider implementing a cookie consent banner to give users control over their preferences.</p>
+</blockquote>]]></content><author><name>Jyoti</name></author><category term="Component Guides" /><summary type="html"><![CDATA[Cookie Policy]]></summary></entry><entry><title type="html">SG Cookies Policy Template</title><link href="http://localhost:4000/nextgen/Cookiespolicy-SG/" rel="alternate" type="text/html" title="SG Cookies Policy Template" /><published>2025-02-27T00:00:00+05:30</published><updated>2025-02-27T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/Cookiespolicy-SG</id><content type="html" xml:base="http://localhost:4000/nextgen/Cookiespolicy-SG/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/cookie_policy.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Cookie Policy</span></figcaption>
 </figure>
 
 <h2 id="description">Description</h2>
+<p>We use cookies to enhance your browsing experience and improve our website. Cookies are small files stored on your device that help us collect technical data, such as your IP address, browser type, and site interactions. By using our site, you agree to our use of cookies.</p>
 
-<p>When you are working on a new page it is possible to set the Publish Status to Draft. This will allow logged in users to preview the page for approval before end users are able to see it on your website.</p>
-
-<p>When you are ready to publish the new page, simply go to Pages in the admin area and find and edit the page you want to publish. On the right side of the page you will notice the Publish settings with two buttons Save Draft to apply your changes without publishing or Publish.</p>]]></content><author><name>James Shimell</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Publish Settings]]></summary></entry><entry><title type="html">Recommended Component Usage on a Page</title><link href="http://localhost:4000/nextgen/RecommendedComponentUsage/" rel="alternate" type="text/html" title="Recommended Component Usage on a Page" /><published>2022-08-12T00:00:00+05:30</published><updated>2022-08-12T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/RecommendedComponentUsage</id><content type="html" xml:base="http://localhost:4000/nextgen/RecommendedComponentUsage/"><![CDATA[<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/recommended_components.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Recommended page size</span></figcaption>
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/cookie_policytemplate.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">New Video Slider Post</span></figcaption>
 </figure>
 
-<h2 id="description">Description</h2>
+<h2 id="assign-template-to-the-admin-page">Assign template to the admin page</h2>
 
-<p>The performance of you website generally refers to how quick your website loads for end users, this is different for users that have fast internet connection or who are using desktop computers vs users using 3G on mobile devices. A mobile takes more time to process the content on the page and tend to have slower connection speeds. When we test the performance of the sites we need to consider users using mobile devices.</p>
+<p>Create a new page and assign the SG Privacy Policies Page template to it.</p>
 
-<p>One quick way of increasing the performance of your website is reducing the amount of sections/components on the page as the more sections you have the more processing the site needs to do before the page loads.</p>
+<h2 id="privacy-global-option">Privacy Global Option</h2>
 
-<p>This will have varying effect, if the section is predominantly text then it will have little impact on page load performance. But if you are using lots of galleries or testimonial sliders where the content loads in the background, then simplifying the page by reducing the usage of these will see performance gains.</p>
+<ol>
+  <li>Added a global option for the school name.</li>
+  <li>Dynamically added the school prefix.</li>
+  <li>Integrated the school email using the global option.</li>
+  <li>Included a field for the School Data Protection Coordinator.
+I have created a global theme option and added fields for the school name, school prefix, school email, and School Data Protection Coordinator.</li>
+</ol>
 
-<p>We would recommend not exceeding between 5-10 sections on a page to keep the page load speed optimised.</p>
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/cookie-policy-sg-global-option.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Global settings</span></figcaption>
+</figure>
 
 <h2 id="pro-tip">Pro Tip</h2>
-
 <blockquote>
-  <p>Even though you are trying to reduce the content for page speed performance, you will still need to have a minimum of 300 words on each page so the SEO performance does not get effected.</p>
-</blockquote>]]></content><author><name>Anna Browell</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Recommended page size]]></summary></entry><entry><title type="html">Optimising Images</title><link href="http://localhost:4000/nextgen/OptimiseImages/" rel="alternate" type="text/html" title="Optimising Images" /><published>2022-07-29T00:00:00+05:30</published><updated>2022-07-29T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/OptimiseImages</id><content type="html" xml:base="http://localhost:4000/nextgen/OptimiseImages/"><![CDATA[<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/optimise_image_header.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Optimising Images</span></figcaption>
+  <p>Regularly review and update your cookie policy to stay compliant with privacy regulations like GDPR and CCPA. Additionally, consider implementing a cookie consent banner to give users control over their preferences.</p>
+</blockquote>]]></content><author><name>Jyoti</name></author><category term="Component Guides" /><summary type="html"><![CDATA[Cookie Policy]]></summary></entry><entry><title type="html">Add Global Blog Articles</title><link href="http://localhost:4000/nextgen/AddGlobalBlog/" rel="alternate" type="text/html" title="Add Global Blog Articles" /><published>2025-01-30T00:00:00+05:30</published><updated>2025-01-30T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/AddGlobalBlog</id><content type="html" xml:base="http://localhost:4000/nextgen/AddGlobalBlog/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/globalblog_articles.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Articles</span></figcaption>
 </figure>
 
 <h2 id="description">Description</h2>
+<p>Blogs are great for driving traffic to your website. Prospective parents and guardians can be inspired to read a blog via an internet search on a subject, or after seeing an interesting post on social media. Ensure that the format of your blogs will continue to engage the user to read on! Use this details component to create the ideal layout for the blogs on your website so that you can include section headers and suitable illustrative images.
+Adding a blog post is also a custom post type like Blog but it has more flexibility to modify the post page in the same way as a site page. To access the posts area navigate to the admin area (wp-admin) and find the menu item ‘Posts’.</p>
 
-<p>The performance of you website generally refers to how quick your website loads for end users. Because your site is media rich the page load speed can be negatively impacted when images are used on your site that have not been optimised for web.</p>
-
-<p>You can see if the image is suitable for web by checking the following image details. The files size, the image dimensions in pixels and the file format.</p>
-
-<h2 id="file-sizes">File sizes</h2>
-
-<p>You should try to keep images that are used in the page content below 100kb, this is more difficult when using full width images such as headers or form backgrounds and in this case keep you should avoid images over 300kb. To reduce your image file size you may need to reduce the dimensions of the image or increase the compression.</p>
-
-<p>There are useful tools online for processing images for web.</p>
-
-<p>https://bulkresizephotos.com/en</p>
-
-<h2 id="image-dimensions">Image Dimensions</h2>
-
-<p>Internet browsers are unable to render images in a higher quality than 72dpi, however many cameras and photo files store images at 300dpi, when you use these images on your website the file size can be four times the size that is needed to display the same image at the right dimensions.</p>
-
-<p>You can check each of your image dimensions when you select an image in your Media Library on your website. The larger the device screen the larger the dimensions need to be, but desktop websites are not usually rendered larger than 1600 pixels for the entire width of the screen. To make sure that your images are not oversized we recommend that you keep all of your banner images below 1600px.</p>
-
-<p>Below we have included a chart of best practices for image dimensions for common components.</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Component</th>
-      <th>Apx. Dimension pixels</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Hero Image</td>
-      <td>1600x800</td>
-    </tr>
-    <tr>
-      <td>Lead form BG</td>
-      <td>1600x800</td>
-    </tr>
-    <tr>
-      <td>CTA BG</td>
-      <td>1600x800</td>
-    </tr>
-    <tr>
-      <td>Blogs</td>
-      <td>800x500</td>
-    </tr>
-    <tr>
-      <td>Cards</td>
-      <td>500x300</td>
-    </tr>
-    <tr>
-      <td>Teachers</td>
-      <td>500x400</td>
-    </tr>
-    <tr>
-      <td>Testimonials</td>
-      <td>500x400</td>
-    </tr>
-    <tr>
-      <td>Menu Thumbnails</td>
-      <td>160x100</td>
-    </tr>
-  </tbody>
-</table>
-
-<h2 id="file-type">File type</h2>
-
-<p>While browsers can display many image formats, Wordpress VIP has an additional image compression option that has been activated for JPG/JPEG images. When you upload JPG images on your site Wordpress VIP will deliver the images as WEBP this is a next generation image compression that will further optimise your page load speed.</p>]]></content><author><name>Anna Browell</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Optimising Images]]></summary></entry><entry><title type="html">Logging in to Test Website</title><link href="http://localhost:4000/nextgen/LoggingIntoStagingEnvironments/" rel="alternate" type="text/html" title="Logging in to Test Website" /><published>2022-07-14T00:00:00+05:30</published><updated>2022-07-14T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/LoggingIntoStagingEnvironments</id><content type="html" xml:base="http://localhost:4000/nextgen/LoggingIntoStagingEnvironments/"><![CDATA[<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/logging_in.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Staging Login</span></figcaption>
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/globalblog_allpost.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">New Post</span></figcaption>
 </figure>
 
-<h2 id="description">Description</h2>
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/globalblog_addpost.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">New Post</span></figcaption>
+</figure>
 
-<p>For most content updates it is easy to make changes on your live site and only publish these changes when you are happy with the layout. However In other cases where the update may have an impact on multiple pages (changing Navigation, changing footer styles) or the change may have a critical effect on the website such as Editing Webforms, the development environments should be used to create and test the changes before applying them. Each website has two test environments PreProd and Develop.</p>
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/globalblog_template.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">New Post</span></figcaption>
+</figure>
 
-<p>Editing the sites in the test environments will make no impact on your live site. If the site breaks you can ask the hypercare team to roll back the change to the same state as the current live site.</p>
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/globalblog_visualelement.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">New Post</span></figcaption>
+</figure>
 
-<h2 id="your-staging-environments">Your Staging environments</h2>
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/globalblog_sidebar.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">New Post</span></figcaption>
+</figure>
 
-<table>
-  <thead>
-    <tr>
-      <th>Live Site</th>
-      <th>Develop Site</th>
-      <th>Preprod Site</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>www.brightoncollege.edu.sg</td>
-      <td>brightoncollege-dev.cognitastaging.co.uk</td>
-      <td>brightoncollege-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.aavn.edu.vn</td>
-      <td>aavn-dev.cognitastaging.co.uk</td>
-      <td>aavn-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.ishcmc.com</td>
-      <td>ishcmc-dev.cognitastaging.co.uk</td>
-      <td>ishcmc-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.standrewsgreenvalley.com</td>
-      <td>standrewsgreenvalley-dev.cognitastaging.co.uk</td>
-      <td>standrewsgreenvalley-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.ais.com.sg</td>
-      <td>ais-dev.cognitastaging.co.uk</td>
-      <td>ais-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.sais.edu.hk</td>
-      <td>sais-hk-dev.cognitastaging.co.uk</td>
-      <td>sais-hk-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.woodlandschools.com</td>
-      <td>woodlandschools-dev.cognitastaging.co.uk</td>
-      <td>woodlandschools-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.standrewssukhumvit.com</td>
-      <td>standrewssukhumvit-dev.cognitastaging.co.uk</td>
-      <td>standrewssukhumvit-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.standrewssathorn.com</td>
-      <td>standrewssathorn-dev.cognitastaging.co.uk</td>
-      <td>standrewssathorn-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.standrewsdusit.com</td>
-      <td>standrewssathorn-dev.cognitastaging.co.uk</td>
-      <td>standrewssathorn-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.issp.edu.vn</td>
-      <td>issp-dev.cognitastaging.co.uk</td>
-      <td>issp-preprod.cognitastaging.co.uk</td>
-    </tr>
-    <tr>
-      <td>www.sais.edu.sg</td>
-      <td>sais-sg-dev.cognitastaging.co.uk</td>
-      <td>sais-sg-preprod.cognitastaging.co.uk</td>
-    </tr>
-  </tbody>
-</table>
+<h2 id="adding-a-new-blog-post">Adding a new Blog Post</h2>
+<ol>
+  <li>Click Add New Blog Post</li>
+  <li>Give you post a title</li>
+  <li>Add Post description under the content editor section.</li>
+  <li>Add a the primary image in the Featured Image section</li>
+  <li>Add Blog Catgeories.</li>
+  <li>Save your post as a draft or publish button</li>
+</ol>
 
-<h2 id="accessing-your-staging-environment">Accessing your Staging Environment</h2>
+<h2 id="assign-template-to-the-admin-page">Assign template to the admin page</h2>
+
+<p>Create a new page and assign the global blog template to it.</p>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/globalblog_template.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">New Post</span></figcaption>
+</figure>
+
+<h2 id="change-header-banner-title-and-background">Change header banner title and background</h2>
 
 <ol>
-  <li>Find the URL of the environment you want to make your changes to. Load it in a new window.</li>
-  <li>Your will be requested to enter a username and password.</li>
-  <li>Use the following credentials
-    <ul>
-      <li>username: cognita</li>
-      <li>password: tgbygv</li>
-    </ul>
+  <li>Go to Visual Composer Content &gt; All Items</li>
+  <li>Select Header of Blog element</li>
+  <li>Click on the title that is selected for the archive header banner</li>
+  <li>Then edit custom heading component</li>
+  <li>Then change the text for header banner title</li>
+</ol>
+
+<h2 id="differnce-between-posts-and-custom-post-type-blog">Differnce between Posts and Custom post type Blog</h2>
+
+<ol>
+  <li>Posts are Built-in content type in WordPress.</li>
+  <li>Primarily used for blog posts, news, and other time-sensitive content.</li>
+  <li>Organized using categories and tags (taxonomy).</li>
+  <li>Appears in the main blog feed.</li>
+  <li>Can be displayed in reverse chronological order.</li>
+  <li>
+    <p>Supports features like author, comments, and RSS feeds by default.</p>
   </li>
-  <li>Your website should appear after adding the credentials</li>
-  <li>You may notice it does not look exactly the same, some different styles or missing logo but do not worry this is because some of your setting are not included</li>
-  <li>You can access the admin menu the same way you do on your live site</li>
-  <li>Go to the /admin/ or /wp-admin/ select login with username and password</li>
-  <li>Use the same username and password as you use on your live site</li>
-  <li>You will now need the authentication code that you use on your live site</li>
-  <li>You are now logged in to the staging environment</li>
-</ol>]]></content><author><name>Anna Browell</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Staging Login]]></summary></entry><entry><title type="html">Import / Export Forms</title><link href="http://localhost:4000/nextgen/ImportExportForms/" rel="alternate" type="text/html" title="Import / Export Forms" /><published>2022-07-14T00:00:00+05:30</published><updated>2022-07-14T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/ImportExportForms</id><content type="html" xml:base="http://localhost:4000/nextgen/ImportExportForms/"><![CDATA[<h2 id="description">Description</h2>
-
-<p>The forms section provides the option to export the form settings of an individual forms or all of the forms on hosted your site. This gives users an easy way to transfer forms between different environments. However when you are testing the forms you will need to switch between the your testing Dynamics environment (UAT) and the live Dynamics environment (Prod). This ensures that the leads you create when testing do not go into your active Dynamics workspace.</p>
-
-<h2 id="importing-your-form">Importing your form</h2>
-
-<ol>
-  <li>Navigate to Forms-&gt; Import/Export -&gt; Import Form</li>
-  <li>Select the form you want to import from your device and click Import</li>
-  <li>You will receive a notification that the import was successful</li>
-  <li>Now if you navigate to Forms you will see the form you just imported</li>
-  <li>Remember to Switch the Portal/Talend Mapping from UAT to Production
-    <ul>
-      <li>Further details on this can be found <a href="/nextgen/EditingForms/">here</a></li>
-    </ul>
-  </li>
+  <li>Custom Post Type Blog</li>
+  <li>A user-defined content type that extends the default post functionality.</li>
+  <li>Useful for creating structured content like portfolios, testimonials, products, events, FAQs, etc.</li>
+  <li>Can have custom taxonomies (e.g., a “Genre” taxonomy for a “Movies” CPT).</li>
+  <li>Does not appear in the default blog feed unless explicitly added.</li>
+  <li>Custom templates and metaboxes can be assigned for different layouts.</li>
 </ol>
 
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/form_import.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Import Forms</span></figcaption>
-</figure>
-
-<h2 id="exporting-you-form">Exporting you form</h2>
-
+<h2 id="adding-a-sidebar">Adding a Sidebar</h2>
 <ol>
-  <li>Navigate to Forms-&gt; Import/Export -&gt; Export Form</li>
-  <li>Select the form or forms you want to export and click Download Export File</li>
-  <li>This will save the form settings on your device in a JSON file</li>
+  <li>Click Appearance &gt; Widgets.</li>
+  <li>Drag NextGen Global Blog to the sidebar.</li>
+  <li>Add a Sidebar Title.</li>
+  <li>Specify the Number of Posts to Show.</li>
+  <li>Select Order By and Order options.</li>
+  <li>Check the checkbox to Show Featured Image, or leave it unchecked if you don’t want to display it.</li>
+  <li>Check the checkbox to Display Categories.</li>
+  <li>Check the checkbox to Display Date.</li>
+  <li>Click the Save button.</li>
 </ol>
 
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/form_export.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Export Forms</span></figcaption>
-</figure>]]></content><author><name>Anna Browell</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Description]]></summary></entry><entry><title type="html">Export Forms Entries</title><link href="http://localhost:4000/nextgen/ExportFormEntries/" rel="alternate" type="text/html" title="Export Forms Entries" /><published>2022-07-14T00:00:00+05:30</published><updated>2022-07-14T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/ExportFormEntries</id><content type="html" xml:base="http://localhost:4000/nextgen/ExportFormEntries/"><![CDATA[<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/entries_export_form.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Export Entries</span></figcaption>
+<h2 id="pro-tip">Pro Tip</h2>
+<blockquote>
+  <p>Simple tips for laying out text in a blog to improve readability: include compelling headlines, helpful subheadings &amp; bullet points to summarise or overview a subject.</p>
+</blockquote>]]></content><author><name>Jyoti</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Blog Articles]]></summary></entry><entry><title type="html">Add a Video Testimonial slider</title><link href="http://localhost:4000/nextgen/AddVideotestimonialSlider/" rel="alternate" type="text/html" title="Add a Video Testimonial slider" /><published>2025-01-30T00:00:00+05:30</published><updated>2025-01-30T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/AddVideotestimonialSlider</id><content type="html" xml:base="http://localhost:4000/nextgen/AddVideotestimonialSlider/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/video_sliders_frontend.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Testimonial Slider</span></figcaption>
 </figure>
 
 <h2 id="description">Description</h2>
 
-<p>The forms section provides the option to export the lead entries directly from your website admin area. This can be useful if you want to compare against the leads that have been automatically loaded into dynamics. This article guides you to on exporting your leads from your site into an excel file.</p>
+<p>Adding a Video Slider post is a custom post type, similar to a Video Slider, but it offers more flexibility to modify the post page in the same way as a site page. To access the posts area, navigate to the admin area (wp-admin) and find the “Video Sliders” menu item.</p>
 
-<h2 id="exporting-you-form">Exporting you form</h2>
-
+<h2 id="adding-a-new-video-slider">Adding a new Video Slider</h2>
 <ol>
-  <li>Navigate to Forms-&gt; Import/Export -&gt; Export Form</li>
-  <li>Select the form you want to see the lead entries for</li>
-  <li>Select which fields you would like included in the export</li>
-  <li>Limit the date range of the entries you want to export</li>
-  <li>You can add additional conditions to filter results even further</li>
-  <li>Finally download the Export File</li>
+  <li>Click “Add New Video Slider.”</li>
+  <li>Give your post a title.</li>
+  <li>Below the content section, under the “Video Slider Section,” add the YouTube video URL in the video field.</li>
+  <li>You can either add a new video category or select an existing one.</li>
+  <li>Save your post by clicking the “Publish” button.</li>
 </ol>
 
 <figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/entries_export_filter.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Export Filters</span></figcaption>
-</figure>]]></content><author><name>Anna Browell</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Export Entries]]></summary></entry><entry><title type="html">Editing Form Details</title><link href="http://localhost:4000/nextgen/EditingForms/" rel="alternate" type="text/html" title="Editing Form Details" /><published>2022-07-14T00:00:00+05:30</published><updated>2022-07-14T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/EditingForms</id><content type="html" xml:base="http://localhost:4000/nextgen/EditingForms/"><![CDATA[<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/form_forms.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Form Entries</span></figcaption>
+    <img src="http://localhost:4000/nextgen/assets/posts/testimonial_video_slider.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">New Video Slider Post</span></figcaption>
+</figure>
+
+<h2 id="wp-bakery-side-changes">WP Bakery side changes</h2>
+<ol>
+  <li>Open the WPBakery Frontend Editor on the page you want to modify.</li>
+  <li>Select the Video Sliders component in WPBakery.</li>
+  <li>Choose a taxonomy and click the “Save Changes” button.</li>
+  <li>Click the “Update” button to save your changes.</li>
+</ol>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/video_sliders_backend.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Video  Slider Nextgen Element</span></figcaption>
+</figure>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/video_sliders_settings.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Video  Slider Setting</span></figcaption>
+</figure>
+
+<h2 id="pro-tip">Pro Tip</h2>
+<blockquote>
+  <p>You can directly add YouTube and Vimeo video URLs to the video slider.</p>
+</blockquote>]]></content><author><name>Jyoti</name></author><category term="Component Guides" /><summary type="html"><![CDATA[Testimonial Slider]]></summary></entry><entry><title type="html">Academic Calendar Events.</title><link href="http://localhost:4000/nextgen/AcademicCalendar/" rel="alternate" type="text/html" title="Academic Calendar Events." /><published>2024-06-07T00:00:00+05:30</published><updated>2024-06-07T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/AcademicCalendar</id><content type="html" xml:base="http://localhost:4000/nextgen/AcademicCalendar/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/academic-calendar.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Calendar View</span></figcaption>
+</figure>
+
+<h2 id="description">Description</h2>
+<p>This functionality is useful for displaying List wise and Month wise Events on the Calendar View.</p>
+
+<h2 id="enable-and-manage-events">Enable and Manage Events</h2>
+
+<ul>
+  <li>For the initial implementation, There is a admin menu called Events from where we can add event categories ,events itself as per added categories. There is a setting option as well to handle with the Calendar View settings.</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/events_admin_menu.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">events_admin_menu</span></figcaption>
+</figure>
+
+<h2 id="addedit-events">Add/Edit Events</h2>
+
+<ul>
+  <li>There are two ways by using which we can add events. One is single events and second is for importing multiple event in one go.</li>
+</ul>
+
+<h2 id="add-event-category">Add Event Category</h2>
+<ul>
+  <li>Add event categories from here as shown below :</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/add_event_category.png" alt="show_events_settings" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">add_event_category</span></figcaption>
+</figure>
+
+<h2 id="add-single-event">Add Single Event</h2>
+
+<ul>
+  <li>By using this option below we can add events one by one also category can be assigned from right hand side as shown in screenshot below.</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/add_event.png" alt="show_events_settings" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">add_event</span></figcaption>
+</figure>
+
+<h2 id="import-bulk-events">Import Bulk Events</h2>
+
+<ul>
+  <li>Plugin provides an option to import bulk events in one go , it asks us to upload a csv file having proper events data added to it.</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/import_events.png" alt="show_events_settings" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">import_bulk_events</span></figcaption>
+</figure>
+
+<ul>
+  <li>After Importing the csv file ,events data needs to be mapped with exact dropdown heading , and category can also be selected as shown in below:</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/import_event_mappings.png" alt="show_events_settings" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">event_mappings</span></figcaption>
+</figure>
+
+<ul>
+  <li>There are some settings as well with which we can modify calendar view</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/events_settings.png" alt="show_events_settings" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">event_settings</span></figcaption>
+</figure>
+
+<h2 id="pro-tip">Pro Tip</h2>
+<blockquote>
+  <p>Prior to adding any events, it’s essential to prepare a proper format csv file before importing it . Once the file is completely ready then proceed to import so that calendar view will be absolutely correct.</p>
+</blockquote>]]></content><author><name>Cognita</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Calendar View]]></summary></entry><entry><title type="html">Add About the Author box at the bottom of our blog pages</title><link href="http://localhost:4000/nextgen/AddBlogAuthorBox/" rel="alternate" type="text/html" title="Add About the Author box at the bottom of our blog pages" /><published>2024-06-06T00:00:00+05:30</published><updated>2024-06-06T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/AddBlogAuthorBox</id><content type="html" xml:base="http://localhost:4000/nextgen/AddBlogAuthorBox/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/AddBlogAuthorBox.jpg" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Author box</span></figcaption>
 </figure>
 
 <h2 id="description">Description</h2>
 
-<p>Your webforms are linked to Dynamics in order for leads to be directly loaded into your own schools workspace, this connection requires the forms to be set up in a specific way and small modifications to the form can break this connection. For this reason all changes to forms should be tested in the staging environments.</p>
+<p>The Blog Author box provides details about the individual responsible for creating and contributing to the blog. It typically showcases the author’s name and may include their image as well, offering readers a glimpse into the person behind the content they’re engaging with.</p>
 
-<p>This tutorial will guide you through making changes to the forms and testing your changes. Please see the linked guides for instructions on logging into the staging environments and exporting and importing your forms.</p>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/form_edit.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Edit Form</span></figcaption>
-</figure>
-
-<h2 id="editing-your-form">Editing your form</h2>
-
-<ol>
-  <li>Log in to your testing environment, you will need School Admin access to make changes to forms
-    <ul>
-      <li>Guide to Access <a href="/nextgen/LoggingIntoStagingEnvironments/">Testing environment</a></li>
-    </ul>
-  </li>
-  <li>Navigate to Forms and select ‘Forms’ on the dropdown menu</li>
-  <li>This screen will show you a copy of your existing forms on your live site</li>
-  <li>Find the form you want to update or duplicate an existing form to make changes to</li>
-  <li>Click Edit to modify the order of fields or add any additional fields
-    <ul>
-      <li>Please note that additional fields will only be added to the lead entries on your site or in the lead notification emails.</li>
-      <li>Please consult Hypercare to see if field data can be added to the Dynamics connection</li>
-    </ul>
-  </li>
-</ol>
+<h2 id="adding-authors-in-admin-dashboard">Adding authors in admin dashboard</h2>
 
 <figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/form_settings.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Form Settings</span></figcaption>
+    <img src="http://localhost:4000/nextgen/assets/posts/AddBlogAuthor1.jpg" alt="How to add Authors" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">How to add Authorsx</span></figcaption>
 </figure>
-
-<h2 id="changing-your-form-name">Changing your form name</h2>
-
-<ol>
-  <li>Go to Form Settings</li>
-  <li>Edit the Form Title - this is how the form will be named in Dynamics</li>
-  <li>Scroll to the bottom and click ‘Save Settings’</li>
-</ol>
 
 <figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/form_notifications.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Notifications</span></figcaption>
+    <img src="http://localhost:4000/nextgen/assets/posts/AddBlogAuthos.jpg" alt="How to add Authors" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">How to add Authors</span></figcaption>
 </figure>
 
-<h2 id="adding-email-addresses-to-the-lead-notification-distribution">Adding email addresses to the Lead notification distribution</h2>
-
 <ol>
-  <li>Go to Form Settings and navigate to Notifications</li>
-  <li>Open the Notification named ‘Admin Notification’</li>
-  <li>From this page you can add email addresses to the distribution list by separating emails with a comma</li>
-  <li>You may also remove email addresses from the distribution list</li>
-  <li>After making your changes, scroll to the bottom and click ‘Update Notification’</li>
+  <li>Go to admin dashboard</li>
+  <li>Under the section ‘Posts’ click on author</li>
+  <li>You can add your author name,description and image</li>
+  <li>Click on save button</li>
 </ol>
+
+<h2 id="adding-author-for-blog-post">Adding author for Blog Post</h2>
 
 <figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/form_talend.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Portal/Talend Config</span></figcaption>
+    <img src="http://localhost:4000/nextgen/assets/posts/AddBlogAuthorBoxSetting.jpg" alt="Add Blog Author Box" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Add Blog Author Box</span></figcaption>
 </figure>
 
-<h2 id="preparing-your-form-for-testing">Preparing your form for testing</h2>
-
 <ol>
-  <li>Go to the Form Settings -&gt; Portal/Talend Config</li>
-  <li>Change the field from Production to UAT, scroll to the very bottom of the page and click ‘Save Settings’</li>
+  <li>Click edit post</li>
+  <li>Under the section ‘Author’ select the author for post</li>
+  <li>After you have made your changes you will need to publish the post</li>
 </ol>
 
-<h2 id="export-your-form">Export your form</h2>
+<h2 id="pro-tip">Pro Tip</h2>
+<blockquote>
+  <p>Simple tips for laying out text in a blog to improve readability: include compelling headlines, helpful subheadings &amp; bullet points to summarise or overview a subject.</p>
+</blockquote>]]></content><author><name>Vijay Kumar</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Author box]]></summary></entry><entry><title type="html">Event Registration In Dynamics CRM Marketing.</title><link href="http://localhost:4000/nextgen/CreateEventRegistrationInDynamicsCrm/" rel="alternate" type="text/html" title="Event Registration In Dynamics CRM Marketing." /><published>2024-04-11T00:00:00+05:30</published><updated>2024-04-11T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/CreateEventRegistrationInDynamicsCrm</id><content type="html" xml:base="http://localhost:4000/nextgen/CreateEventRegistrationInDynamicsCrm/"><![CDATA[<p><em>Note : This option will be available after 13th APRIL 2024 !</em></p>
 
-<p>Please see the guide <a href="/nextgen/ImportExportForms/">here</a> to export your form</p>]]></content><author><name>Anna Browell</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Form Entries]]></summary></entry><entry><title type="html">Find your lead details</title><link href="http://localhost:4000/nextgen/FindLeadDetails/" rel="alternate" type="text/html" title="Find your lead details" /><published>2022-07-07T00:00:00+05:30</published><updated>2022-07-07T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/FindLeadDetails</id><content type="html" xml:base="http://localhost:4000/nextgen/FindLeadDetails/"><![CDATA[<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/entries_menu.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Form Entries</span></figcaption>
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/crm_events_list.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">crm_events_list</span></figcaption>
+</figure>
+
+<h2 id="description">Description</h2>
+<p>This functionality is useful for generating new events upon form submission in the Dynamics CRM portal.</p>
+
+<h2 id="enable-and-manage-events">Enable and Manage Events</h2>
+
+<ul>
+  <li>For the initial implementation, consider requesting the addition of an events form on the website by <a href="https://web-support.cognita.com"> submitting a ticket</a> to the website developers. We can either create a new form or use an existing one (long or short) to select events.</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/multi_event_form.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">multi_event_form</span></figcaption>
+</figure>
+
+<p>or Long form / Short Form with Single campus only like Asian Inquiry Websites.</p>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/LongFormEventsSingleCampus.jpg" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">enable_crm_events</span></figcaption>
+</figure>
+
+<h2 id="created-and-add-events-in-event-data">Created And Add Events In Event Data</h2>
+
+<ul>
+  <li>Once Events are enabled, school admin can login to the CMS/website and navigate to the CRM Multi Events menu in the menu bar on the left.</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/show_events_settings.jpg" alt="show_events_settings" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">enable_crm_events</span></figcaption>
+</figure>
+
+<ul>
+  <li>Click on “Add Row” to create events in the Event From and update.</li>
+  <li>If this is a new setup to add events then click on the plus icon to open the accordion.</li>
+  <li>Enter a valid event name. It is not necessary to use any comma (,), ‘s, &amp; in this field.</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/event_data1.jpg" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">EventData</span></figcaption>
+</figure>
+
+<ul>
+  <li>Select the event campus, for which option you need to add the event.</li>
+  <li>There is no need to add or edit the “Main events shown” field. Since this is just to show where the event created will appear on the form side.</li>
+  <li>Add event start date, start time, end date, end time to the event. Note*: End time should be greater than start time.</li>
+  <li>To add another event, click the “Add Row” or + icon in the right side button and follow the same steps.</li>
+  <li>Save/Update the event with “Update” button on right top side of the page.</li>
+</ul>
+
+<h2 id="link-pre-created-event">Link Pre-Created Event</h2>
+<ul>
+  <li>In “Event Name” enter the same event name as created/exists in CRM Marketing side.</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/crm_event_name.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Get CRM Event Name</span></figcaption>
+</figure>
+
+<ul>
+  <li>Fill in all the event details and save the changes.</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/add_crm_event_name.jpg" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">add_crm_event_name</span></figcaption>
+</figure>
+
+<h2 id="verify-events-on-form">Verify Events On Form</h2>
+<ul>
+  <li>Open the Front End Side form and select the campus for which the events were added from the CMS side.</li>
+  <li>On selecting an option there will be a dropdown and we can verify the event name in the option.
+like in below screenshot for multicampus school:</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/event_verification_onform.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">event_verification_onform</span></figcaption>
+</figure>
+
+<ul>
+  <li>Like for single campus school any form event has been setup like in below screenshot :</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/like_event_form_created.jpg" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">event_verification_onform</span></figcaption>
+</figure>
+
+<p>Then on user side it will apear like in below screenshot :</p>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/user_side_single_campus_events.jpg" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">event_verification_onform</span></figcaption>
+</figure>
+
+<h2 id="see-the-registered-users-in-crm">See The registered users in CRM.</h2>
+
+<ul>
+  <li>After successful form submission we can see the record in CRM Marketing Events section</li>
+</ul>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/records_in_crm.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">records_in_crm</span></figcaption>
+</figure>
+
+<p>&amp;</p>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/crm_side_events_created.jpg" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">event_verification_onCRM</span></figcaption>
+</figure>
+
+<h2 id="pro-tip">Pro Tip</h2>
+<blockquote>
+  <p>Prior to scheduling any events, it’s essential to obtain approval and thoroughly test the form design for CRM entries with PO &amp; website developers. When linking pre-created events, ensure that the event name matches the events in the CRM marketing side for the relevant event.</p>
+</blockquote>]]></content><author><name>Cognita</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Note : This option will be available after 13th APRIL 2024 !]]></summary></entry><entry><title type="html">How To Change Category Tag Colour</title><link href="http://localhost:4000/nextgen/HowToChangeCategoryTagColour/" rel="alternate" type="text/html" title="How To Change Category Tag Colour" /><published>2024-03-12T00:00:00+05:30</published><updated>2024-03-12T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/HowToChangeCategoryTagColour</id><content type="html" xml:base="http://localhost:4000/nextgen/HowToChangeCategoryTagColour/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeCategoryTagColour.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">How To Change Category Tag Colour</span></figcaption>
 </figure>
 
 <h2 id="description">Description</h2>
 
-<p>Your webforms should automatically send lead information by email and populate your Microsoft Dynamics workspace. However you can also find lead details inside the admin area of your website. If you need to verify the lead entry this section will give you direct access to compare with your other platforms.</p>
+<p>We can enable category wise tag color and change Category Tag Colour in edit category page</p>
+
+<h2 id="enable-category-wise-tag-color">Enable category wise tag color</h2>
 
 <figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/entries_form.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Select form to see leads</span></figcaption>
+    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeCategoryTagColourSettings2.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">How To Change Category Tag Colour</span></figcaption>
 </figure>
 
-<h2 id="finding-your-webform-lead-entries">Finding your webform lead entries</h2>
-
 <ol>
-  <li>Log in to your admin area, you will need School Admin access to view these details</li>
-  <li>Navigate to Forms and select ‘Entries’ on the dropdown menu</li>
-  <li>Select which form you want to find lead data for</li>
+  <li>Go to Next-Gen Options &gt; Blog</li>
+  <li>Then select the Enable Category Tagging colour checkbox</li>
 </ol>
 
+<h2 id="change-category-tag-colour">Change Category Tag Colour</h2>
+
 <figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/entries_view.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Filter your results</span></figcaption>
+    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeCategoryTagColourSettings.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">How To Change Category Tag Colour</span></figcaption>
 </figure>
 
-<h2 id="see-the-full-details">See the full details</h2>
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeCategoryTagColourSettings1.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">How To Change Category Tag Colour</span></figcaption>
+</figure>
 
 <ol>
-  <li>Now you can filter by date range or by find the lead you are looking for by filtering by name or email</li>
-  <li>To see the full details of the lead hover over the title field and click view</li>
-</ol>
+  <li>Go to Posts &gt; Categories</li>
+  <li>Then edit category where you want to change the color</li>
+  <li>Then select category tagging colour</li>
+</ol>]]></content><author><name>Vijay Kumar</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[How To Change Category Tag Colour]]></summary></entry><entry><title type="html">How To Change Archive Pages Header Banner</title><link href="http://localhost:4000/nextgen/HowToChangeArchivePagesHeaderBanner/" rel="alternate" type="text/html" title="How To Change Archive Pages Header Banner" /><published>2024-01-17T00:00:00+05:30</published><updated>2024-01-17T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/HowToChangeArchivePagesHeaderBanner</id><content type="html" xml:base="http://localhost:4000/nextgen/HowToChangeArchivePagesHeaderBanner/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBanner.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Archive Header Banner</span></figcaption>
+</figure>
+
+<h2 id="description">Description</h2>
+
+<p>The Header Banner will be displayed at the top of the Archive Pages. It will include a title,background image and background colour</p>
+
+<h2 id="select-template-for-archive-header-banner">Select template for Archive header banner</h2>
 
 <figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/entries_detail.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Complete lead details</span></figcaption>
-</figure>]]></content><author><name>Anna Browell</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Form Entries]]></summary></entry></feed>
+    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting1.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Archive Header Banner Setup</span></figcaption>
+</figure>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting2.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Archive Header Banner Setup</span></figcaption>
+</figure>
+
+<ol>
+  <li>Go to Next-Gen Options &gt; Header</li>
+  <li>Scroll down the page</li>
+  <li>Then select Choose a template for header banner on Archive Pages</li>
+</ol>
+
+<h2 id="change-header-banner-title-and-background">Change header banner title and background</h2>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting5.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Archive Header Banner Setup</span></figcaption>
+</figure>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting3.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Archive Header Banner Setup</span></figcaption>
+</figure>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting4.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Archive Header Banner Setup</span></figcaption>
+</figure>
+
+<ol>
+  <li>Go to Visual Composer Content &gt; All Items</li>
+  <li>Click on the title that is selected for the archive header banner</li>
+  <li>Then edit custom heading component</li>
+  <li>Then change the text for header banner title</li>
+</ol>]]></content><author><name>Vijay Kumar</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Archive Header Banner]]></summary></entry><entry><title type="html">How To Change Blog Grid Template Header Banner</title><link href="http://localhost:4000/nextgen/HowToChangeBlogGridHeaderBanner/" rel="alternate" type="text/html" title="How To Change Blog Grid Template Header Banner" /><published>2024-01-17T00:00:00+05:30</published><updated>2024-01-17T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/HowToChangeBlogGridHeaderBanner</id><content type="html" xml:base="http://localhost:4000/nextgen/HowToChangeBlogGridHeaderBanner/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeBlogGridHeaderBanner.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner</span></figcaption>
+</figure>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeBlogGridHeaderBanner1.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner</span></figcaption>
+</figure>
+
+<h2 id="description">Description</h2>
+
+<p>The Header Banner will be displayed at the top of the Blog Grid Template Pages. It will include a title,background image and background colour</p>
+
+<h2 id="select-template-for-archive-header-banner">Select template for Archive header banner</h2>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeBlogGridHeaderBannerSetting.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner Setup</span></figcaption>
+</figure>
+
+<ol>
+  <li>Go to Blog Grid Template Page</li>
+  <li>Then edit this page</li>
+  <li>Scroll down the page</li>
+  <li>Then select Choose a template for header banner</li>
+</ol>
+
+<h2 id="change-header-banner-title-and-background">Change header banner title and background</h2>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting5.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner Setup</span></figcaption>
+</figure>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting3.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner Setup</span></figcaption>
+</figure>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting4.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner Setup</span></figcaption>
+</figure>
+
+<ol>
+  <li>Go to Visual Composer Content &gt; All Items</li>
+  <li>Click on the title that is selected for the archive header banner</li>
+  <li>Then edit custom heading component</li>
+  <li>Then change the text for header banner title</li>
+</ol>]]></content><author><name>Vijay Kumar</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Blog Grid Template Header Banner Blog Grid Template Header Banner]]></summary></entry></feed>
