@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/nextgen/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/nextgen/" rel="alternate" type="text/html" /><updated>2025-03-01T15:25:23+05:30</updated><id>http://localhost:4000/nextgen/feed.xml</id><title type="html">Next Gen</title><subtitle>Knowledge base for the use of the Next Gen components on Wordpress.</subtitle><author><name>James Shimell</name></author><entry><title type="html">Cookies Policy Template (English &amp;amp; Vietnamese)</title><link href="http://localhost:4000/nextgen/Cookiespolicy-VN-ENG/" rel="alternate" type="text/html" title="Cookies Policy Template (English &amp;amp; Vietnamese)" /><published>2025-02-28T00:00:00+05:30</published><updated>2025-02-28T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/Cookiespolicy%20-VN-ENG</id><content type="html" xml:base="http://localhost:4000/nextgen/Cookiespolicy-VN-ENG/"><![CDATA[<figure>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/nextgen/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/nextgen/" rel="alternate" type="text/html" /><updated>2025-03-29T11:06:11+05:30</updated><id>http://localhost:4000/nextgen/feed.xml</id><title type="html">Next Gen</title><subtitle>Knowledge base for the use of the Next Gen components on Wordpress.</subtitle><author><name>James Shimell</name></author><entry><title type="html">Add a Slider Image Banner</title><link href="http://localhost:4000/nextgen/AddAVideoSliderBanner/" rel="alternate" type="text/html" title="Add a Slider Image Banner" /><published>2025-03-29T00:00:00+05:30</published><updated>2025-03-29T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/AddAVideoSliderBanner</id><content type="html" xml:base="http://localhost:4000/nextgen/AddAVideoSliderBanner/"><![CDATA[<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/header_video_slider.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Slider Image Banner</span></figcaption>
+</figure>
+
+<h2 id="description">Description</h2>
+
+<p>In addition to video elements, an image slider offers a visually engaging way to present multiple images in a slick carousel format. This component is perfect for highlighting key features, showcasing portfolios, or creating a visually rich storytelling experience.
+<span style="background-color: yellow; font-weight: bold;">This feature is for Nextgen-v2.</span></p>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/header_video_element.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Select Kyubi Element</span></figcaption>
+</figure>
+
+<figure>
+    <img src="http://localhost:4000/nextgen/assets/posts/header_slider.png" alt="Alt for image" />
+    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Element Setting</span></figcaption>
+</figure>
+
+<h2 id="adding-a-video-header-component">Adding a Video Header component.</h2>
+
+<ol>
+  <li>In the WPBakery editor of your page</li>
+  <li>Click the ‘+’ icon in the top right corner</li>
+  <li>Use the text search to find ‘Header Video &amp; Image’</li>
+  <li>The Video Header Settings box will open out</li>
+  <li>From here Select Header type Slider from the dropdown</li>
+  <li>Click on the option to add a new slide. This will open the settings where you can upload images.</li>
+  <li>Click Save and the component will be added to the page</li>
+</ol>
+
+<h2 id="pro-tip">Pro Tip</h2>
+<blockquote>
+  <p>Ensure that your images are optimized for web performance to maintain fast loading times.</p>
+</blockquote>
+
+<blockquote>
+  <p>Use high-quality visuals that align with your brand identity for a professional and engaging appearance.</p>
+</blockquote>
+
+<blockquote>
+  <p>If using multiple slides, keep the content concise and visually appealing to maintain visitor interest.</p>
+</blockquote>
+
+<blockquote>
+  <p>Regularly update your slider content to keep your website fresh and engaging.</p>
+</blockquote>]]></content><author><name>Jyoti</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Slider Image Banner]]></summary></entry><entry><title type="html">Cookies Policy Template (English &amp;amp; Vietnamese)</title><link href="http://localhost:4000/nextgen/Cookiespolicy-VN-ENG/" rel="alternate" type="text/html" title="Cookies Policy Template (English &amp;amp; Vietnamese)" /><published>2025-02-28T00:00:00+05:30</published><updated>2025-02-28T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/Cookiespolicy%20-VN-ENG</id><content type="html" xml:base="http://localhost:4000/nextgen/Cookiespolicy-VN-ENG/"><![CDATA[<figure>
     <img src="http://localhost:4000/nextgen/assets/posts/cookie_policy-vn-eng.png" alt="Alt for image" />
     <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Cookie Policy</span></figcaption>
 </figure>
@@ -543,54 +590,4 @@ like in below screenshot for multicampus school:</li>
   <li>Click on the title that is selected for the archive header banner</li>
   <li>Then edit custom heading component</li>
   <li>Then change the text for header banner title</li>
-</ol>]]></content><author><name>Vijay Kumar</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Archive Header Banner]]></summary></entry><entry><title type="html">How To Change Blog Grid Template Header Banner</title><link href="http://localhost:4000/nextgen/HowToChangeBlogGridHeaderBanner/" rel="alternate" type="text/html" title="How To Change Blog Grid Template Header Banner" /><published>2024-01-17T00:00:00+05:30</published><updated>2024-01-17T00:00:00+05:30</updated><id>http://localhost:4000/nextgen/HowToChangeBlogGridHeaderBanner</id><content type="html" xml:base="http://localhost:4000/nextgen/HowToChangeBlogGridHeaderBanner/"><![CDATA[<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeBlogGridHeaderBanner.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner</span></figcaption>
-</figure>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeBlogGridHeaderBanner1.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner</span></figcaption>
-</figure>
-
-<h2 id="description">Description</h2>
-
-<p>The Header Banner will be displayed at the top of the Blog Grid Template Pages. It will include a title,background image and background colour</p>
-
-<h2 id="select-template-for-archive-header-banner">Select template for Archive header banner</h2>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/HowToChangeBlogGridHeaderBannerSetting.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner Setup</span></figcaption>
-</figure>
-
-<ol>
-  <li>Go to Blog Grid Template Page</li>
-  <li>Then edit this page</li>
-  <li>Scroll down the page</li>
-  <li>Then select Choose a template for header banner</li>
-</ol>
-
-<h2 id="change-header-banner-title-and-background">Change header banner title and background</h2>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting5.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner Setup</span></figcaption>
-</figure>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting3.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner Setup</span></figcaption>
-</figure>
-
-<figure>
-    <img src="http://localhost:4000/nextgen/assets/posts/archivePagesHeaderBannerSetting4.png" alt="Alt for image" />
-    <figcaption data-uk-grid="" class="uk-flex-right"><span class="uk-width-auto">Blog Grid Template Header Banner Setup</span></figcaption>
-</figure>
-
-<ol>
-  <li>Go to Visual Composer Content &gt; All Items</li>
-  <li>Click on the title that is selected for the archive header banner</li>
-  <li>Then edit custom heading component</li>
-  <li>Then change the text for header banner title</li>
-</ol>]]></content><author><name>Vijay Kumar</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Blog Grid Template Header Banner Blog Grid Template Header Banner]]></summary></entry></feed>
+</ol>]]></content><author><name>Vijay Kumar</name></author><category term="Wordpress Admin" /><summary type="html"><![CDATA[Archive Header Banner]]></summary></entry></feed>
