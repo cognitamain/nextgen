@@ -26,7 +26,7 @@ This component is great for breaking up content in you page and drive lead conve
 8. You can drag it to the right place in your page by selecting the left corner of the row
 
 Testimonial content is managed in the admin area you can manage the posts by navigating to the Testimonials menu item in wp-admin. For further details please see the following article:
-[Managing Testimonial content](/Shutta-Cognita-NextGen/CPT-Testimonials/)
+[Managing Testimonial content](/nextgen/CPT-Testimonials/)
 
 ## Pro Tip
 > Alongside the author’s name & title, and company name, include website and social media profile URLs.

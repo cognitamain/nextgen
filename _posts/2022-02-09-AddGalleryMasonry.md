@@ -28,7 +28,7 @@ Use this effective grid component to create an appealing collage of images of yo
 10. You can drag it to the right place in your page by selecting the left corner of the row
 
 The Masonry Gallery content is managed in the admin area you can manage the posts by navigating to the Galleries menu item in wp-admin. For further details please see the following article:
-[Managing Galleries content](/Shutta-Cognita-NextGen/CPT-Galleries/)
+[Managing Galleries content](/nextgen/CPT-Galleries/)
 
 ## Pro Tip
 > When your website has appealing image content users are far more likely to stay engaged and keep clicking through pages!

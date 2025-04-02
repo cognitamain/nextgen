@@ -30,7 +30,7 @@ The card graphic format on a website allows you to communicate information to yo
 
 
 For further details on managing rows please check out the following article:
-[Creating columns](/Shutta-Cognita-NextGen/SettingUpAGrid/)
+[Creating columns](/nextgen/SettingUpAGrid/)
 
 
 ## Pro Tip

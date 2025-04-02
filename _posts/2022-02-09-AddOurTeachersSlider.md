@@ -27,7 +27,7 @@ Hosting a gallery of the profiles of your teachers on a slider is a simple but e
 8. You can drag it to the right place in your page by selecting the left corner of the row
 
 Our teachers content is managed in the admin area you can manage the posts by navigating to the Teacher menu item in wp-admin. For further details please see the following article:
-[Managing Our Teacher content](/Shutta-Cognita-NextGen/CPT-Teachers/)
+[Managing Our Teacher content](/nextgen/CPT-Teachers/)
 
 
 ## Pro Tip

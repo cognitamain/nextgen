@@ -29,7 +29,7 @@ The Call to action (CTA) content on a website is one of the most vital marketing
 
 
 For further details on managing rows please check out the following article:
-[Creating columns](/Shutta-Cognita-NextGen/SettingUpAGrid/)
+[Creating columns](/nextgen/SettingUpAGrid/)
 
 ## Pro Tip
 > Be concisely creative with the text you use on your CTA buttons. One word CTAs are often boring so avoid: submit, enter, call etc… Think of more enticing instructions such as: Book a tour, Take a virtual tour etc…

@@ -27,7 +27,7 @@ Using a grid layout is an appealing way to introduce your professional and frien
 9. You can drag it to the right place in your page by selecting the left corner of the row
 
 Our teachers content is managed in the admin area you can manage the posts by navigating to the Teacher menu item in wp-admin. For further details please see the following article:
-[Managing Our Teacher content](/Shutta-Cognita-NextGen/CPT-Teachers/)
+[Managing Our Teacher content](/nextgen/CPT-Teachers/)
 
 ## Pro Tip
 > A webpage that uses a grid layout is easy to update so they are a useful tool for making changes when you have new recruits to your teaching staff.

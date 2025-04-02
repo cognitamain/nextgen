@@ -25,7 +25,7 @@ The testimonials components limit the amount of testimonials are shown to contro
 
 
 Testimonial content is managed in the admin area you can manage the posts by navigating to the Testimonials menu item in wp-admin. For further details please see the following article:
-[Managing Testimonial content](/Shutta-Cognita-NextGen/CPT-Testimonials/)
+[Managing Testimonial content](/nextgen/CPT-Testimonials/)
 
 
 ## Pro Tip
